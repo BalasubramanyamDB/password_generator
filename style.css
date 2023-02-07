@@ -3,10 +3,14 @@ body{
     font-family: sans-serif;
 }
 .container{
+    position: relative;
     max-width: 550px;
     max-height: 550px;
-    transform: translate(100%,40%);
-
+    border: 7px solid white;
+    padding:40px 50px 50px 50px;
+    border-radius: 10px;
+    left: 450px;
+    top: 130px;
 }
 .top h1{
     font-weight:bold;
@@ -56,16 +60,17 @@ body{
 }
 .box-1{
     width:50%;
-    height: 30px;
-    padding: 20px;
+    height: 15px;
+    padding: 10px;
     background-color: #273549;
-    box-sizing: border-box;
-    margin: 10px 5px 0 0;
+    /* box-sizing: border-box; */
+    margin: 20px 5px 0 0;
     text-align: center;
     border-radius: 5px;
     font-size:16px;
     font-weight: 600;
     color: #10B981;
+    
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
