@@ -59,8 +59,8 @@ body{
     display: flex;
 }
 .box-1{
-    width:50%;
-    height: 15px;
+    width: 50%;
+    /* min-height: 15px; */
     padding: 10px;
     background-color: #273549;
     /* box-sizing: border-box; */
