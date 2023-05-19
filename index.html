@@ -15,6 +15,15 @@
             <p>Never use an insecure password again.</p>
             <input type="number" id="input-field" placeholder="Enter length">
             <button id="generate-btn">Generate passwords</button>
+            <button id="random-password" id="custom-btn" onclick="disp()">Generate custom password</button>
+            <div class="custom" id="custom-container" style="display: none">
+                <input type="checkbox" id = "num" /><label>Number</label>
+                <input type="checkbox" id = "alpha" /><label>Alphabets</label>
+                <input type="checkbox" id = "special" /><label>Special characters</label>
+                <br>
+                <button id="custom-btn" onclick="customGenerate()" >Generate</button>    
+            </div>            
+            
         </div>
         <hr id="line">
         <div class="field">
