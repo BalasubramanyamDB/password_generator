@@ -1,3 +1,3 @@
 # password_generator
-A random password generator.
-https://stirring-khapse-98c8b1.netlify.app/
+A custom password generator.
+https://subtle-quokka-b2a91e.netlify.app/
